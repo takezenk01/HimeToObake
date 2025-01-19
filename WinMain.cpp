@@ -310,6 +310,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR IpCmdLine
 			if (CountDot(MazeMap) == 0)
 			{
 				ShowGameClearScreen();
+				std::memcpy(MazeMap, Maze, sizeof(Maze));
 			}
 
 			// •P‚Ì•`‰æ
