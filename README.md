@@ -7,24 +7,24 @@
   
 実際にプレイされる際は、Releseフォルダをコピーしていただき、DxlibGame.exeを起動してください。  
   
---ファイル説明--  
-・WinMain.cpp  
+**--ファイル説明--**  
+**・WinMain.cpp**  
 　メインファイルになります。exe起動時に実行されるファイルになります。  
   
- ・RouteSearch.cpp  
- ・RouteSearch.h  
+ **・RouteSearch.cpp**  
+ **・RouteSearch.h**  
  　おばけの経路探索アルゴリズムが記載されたファイルになります。  
   
-  ・Maze.cpp  
-  ・Maze.h  
+  **・Maze.cpp**  
+  **・Maze.h**  
   　ステージについて記載されたファイルになります。  
   
---フォルダ説明--  
-・Release  
+**--フォルダ説明--**  
+**・Release*  
 　リリース向けにビルドされたexeファイルがあります。ゲームを遊ぶ際は、DxlibGame.exeを起動してください。  
   
- ・Resource  
+ **・Resource**  
  　キャラクター画像やロゴ等のリソースが保存されたフォルダです。  
   
-  ・DxLib_VC  
+  **・DxLib_VC**  
   　ゲームを作成する際のサードパーティライブラリが格納されたフォルダです。このゲームはDxlibライブラリを用いて作成されています。
